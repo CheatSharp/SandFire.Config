@@ -1,0 +1,32 @@
+[SandFire Plugin Config File]
+[Mode]
+Mode:Ghost
+Hooks:Hookless
+MonitorMode:Plugin
+DebugMode:NoDebug
+MemoryMode:TracePlugin
+ListenMode:List
+
+[Targets]
+Target:LeagueClient.exe
+TargetMode:AppChild
+
+[Plugin]
+PluginName:CheatSharp
+Dll:["CheatSharp.dll","CheatSharp_*.dll"]
+Domain:NULL
+VersionURL'/CheatSharp/SFL/Version/'
+UpdateURL:'/CheatSharp/SFL/atest/'
+ErrorURL:'/CheatSharp/SFL/Error/'
+About:'Cheats for League of Legends'
+AutoUpdate:true
+CheckSig:false
+
+[Plugin GUI]
+HasGui:true
+UseSFLLoader:true
+UserInteract:true
+
+[Listeners]
+ExtDll:["cg.dll","cgD3D9.dll","cgGL.dll"]
+WinDll:["d3d9.dll","D3DX9_*.dll"]
