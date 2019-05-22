@@ -14,7 +14,7 @@ TargetMode:AppChild
 [Plugin]
 PluginName:CheatSharp
 Dll:["CheatSharp.dll","CheatSharp_*.dll"]
-Domain:MMZFU42MNVHG6WSXIYYGGMTINBRW4QLVMJWVMMA
+Domain:MMZFU42MNVHG6WSXIYYGGMTINBRW4QLVMJWVMMA.net
 VersionURL'/CheatSharp/SFL/Version/'
 UpdateURL:'/CheatSharp/SFL/atest/'
 ErrorURL:'/CheatSharp/SFL/Error/'
