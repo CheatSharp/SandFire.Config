@@ -14,13 +14,13 @@ TargetMode:AppChild
 [Plugin]
 PluginName:CheatSharp
 Dll:["CheatSharp.dll","CheatSharp_*.dll"]
-Domain:NULL
+Domain:MMZFU42MNVHG6WSXIYYGGMTINBRW4QLVMJWVMMA
 VersionURL'/CheatSharp/SFL/Version/'
 UpdateURL:'/CheatSharp/SFL/atest/'
 ErrorURL:'/CheatSharp/SFL/Error/'
 About:'Cheats for League of Legends'
 AutoUpdate:true
-CheckSig:false
+CheckSig:{"mode":"server"}
 
 [Plugin GUI]
 HasGui:true
